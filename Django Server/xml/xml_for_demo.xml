@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<task>
+    <c_task id="1">
+        <image_url>MetalPlates.jpg</image_url>
+        <text></text>
+        <message>Obtain Metal Plates</message>
+        <pre_cond>hasKnowledge =true,hasWebsiteLink = true</pre_cond>
+        <post_cond>hasPlates=true</post_cond>
+        <sub_tasks>c_task id=3,p_task id=5</sub_tasks>
+        <response>
+            <resp id="1">Talk to student</resp>
+            <resp id="2">Look for metal plates in current location</resp>
+            <resp id="3">Talk to professor</resp>
+            <resp id="4">Talk to janitor</resp>
+        </response>
+    </c_task>
+    <c_task id="2">
+        <image_url>Student.jpg</image_url>
+        <text></text>
+        <message>Talking to student</message>
+        <response>
+            <resp id="1">Ask about lab</resp>
+            <resp id="2">Ask about project </resp>
+            <resp id="3">Ask about homework</resp>
+        </response>
+    </c_task>
+    <c_task id="3">
+        <image_url>Student.jpg</image_url>
+        <text></text>
+        <message>Talking about project</message>
+        <response>
+            <resp id="1">Join project</resp>
+            <resp id="2">Go talk to other student</resp>
+        </response>
+    </c_task>
+    <c_task id="4">
+        <image_url>FacultyResearchLab.jpg</image_url>
+        <text></text>
+        <message>On Project</message>
+        <response>
+            <resp id="1">Work on project</resp>
+            <resp id="2">Impress professor </resp>
+            <resp id="3">Impress other students</resp>
+            <resp id="4">Take metal plates</resp>
+        </response>
+    </c_task>    
+    <c_task id="5">
+        <image_url>BlackHole.jpg</image_url>
+        <text></text>
+        <message>Continue destroying black hole</message>
+        <response>
+            <resp id="1">Place metal plates on roof</resp>
+            <resp id="2">Obtain CRT</resp>
+            <resp id="3">Stare at black hole</resp>
+        </response>
+    </c_task>    
+    <c_task id="6">
+        <image_url>CathodeRay.jpg</image_url>
+        <text></text>
+        <message>Obtaining CRT</message>
+        <response>
+            <resp id="1">Talk to student</resp>
+            <resp id="2">Talk to professor</resp>
+            <resp id="3">Talk to janitor</resp>
+        </response>
+    </c_task>    
+    <c_task id="7">
+        <image_url>Student2.jpg</image_url>
+        <text></text>
+        <message>Getting CRT location</message>
+        <response>
+            <resp id="1">Ask about a CRT</resp>
+            <resp id="2">Ask about a lab</resp>
+            <resp id="3">Ask about project</resp>
+        </response>
+    </c_task>    
+    <c_task id="8">
+        <image_url>Janitor.jpg</image_url>
+        <text></text>
+        <message>Talking to Janitor</message>
+        <response>
+            <resp id="1">Mention important homework left in lab</resp>
+            <resp id="2">Ask for CRT</resp>
+        </response>
+    </c_task>    
+
+    <c_task id="9">
+        <image_url></image_url>
+        <text></text>
+        <message>Going to Lab</message>
+        <response></response>
+    </c_task>    
+    <c_task id="10">
+        <image_url>FacultyResearchLab2.jpg</image_url>
+        <text></text>
+        <message>In Lab with CRT</message>
+        <response>
+            <resp id="1">Take CRT</resp>
+            <resp id="2">Work in lab</resp>
+        </response>
+    </c_task>    
+    <c_task id="11">
+        <image_url>BlackHole.jpg</image_url>
+        <text></text>
+        <message>Continue destroying black hole</message>
+        <response>
+            <resp id="1">Place metal plates on roof</resp>
+            <resp id="3">Stare at black hole</resp>
+        </response>
+    </c_task>    
+    <c_task id="12">
+        <image_url></image_url>
+        <text></text>
+        <message>Going to Roof to place metal plates</message>
+        <response></response>
+    </c_task>    
+    <c_task id="13">
+        <image_url>BlackHole.jpg</image_url>
+        <text></text>
+        <message>Continue destroying black hole</message>
+        <response>
+            <resp id="1">Use CRT to destroy black hole by aiming it at the metal plates</resp>
+            <resp id="3">Stare at black hole</resp>
+        </response>
+    </c_task>    
+    <c_task id="14">
+        <image_url></image_url>
+        <text></text>
+        <message>Going to CRT</message>
+        <response></response>
+    </c_task>    
+    <c_task id="15">
+        <image_url>CathodeRay.jpg</image_url>
+        <message>Aiming CRT at black hole</message>
+        <response>
+            <resp id="1">Celebrate destruction of blackhole</resp>
+        </response>
+    </c_task>
+</task>

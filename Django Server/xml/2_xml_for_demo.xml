@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<task>
+	<c_task id="0">
+    	<specifier> Obtain metal plates </specifier>
+    	<pre_cond>
+    		<location>None</location>
+    		<credits></credits>
+    		<variables>+0,+0,+0</variables>
+    	</pre_cond>   	
+    	<child_nodes>1,2,6,7,8,9,10</child_nodes>
+        <image_url>MetalPlates.jpg</image_url>
+        <header>Your Task: Get Metal Plates</header>
+        <message>Obtain Metal Plates</message>       
+        <post_cond>
+        	<credits>
+        		<true>hasKnowledge,hasWebsiteLink</true>
+        		<false>hasCRT</false>
+        	</credits>
+        	<variables>+6,+5,+3</variables>
+		</post_cond>
+    </c_task>
+    
+    <c_task id="10">
+    	<specifier> Obtain metal plates </specifier>
+    	<pre_cond>
+    		<location>klaus</location>
+    		<credits>hasKnowledge,hasWebsiteLink</credits>
+    		<variables>+0,+0,+0</variables>
+    	</pre_cond>   	
+    	<child_nodes>6,4,3,10</child_nodes>
+        <image_url>MetalPlates.jpg</image_url>
+        <header>Your Task: Get Metal Plates</header>
+        <message>Obtain Metal Plates</message>       
+        <post_cond>
+        	<credits>
+        		<true>hasKnowledge,hasWebsiteLink</true>
+        		<false>hasCRT</false>
+        	</credits>
+        	<variables>+6,-5,+3</variables>
+		</post_cond>
+    </c_task>
+    <c_task id="2">
+    	<specifier> Ask a professor </specifier>
+    	<pre_cond>
+    		<location>klaus</location>
+    		<credits>hasKnowledge,hasWebsiteLink</credits>
+    		<variables>+0,+0,+0</variables>
+    	</pre_cond>   	
+    	<child_nodes>2,3,10,4</child_nodes>
+        <image_url>MetalPlates.jpg</image_url>
+        <header>Your Task: Get Metal Plates</header>
+        <message>Obtain Metal Plates</message>       
+        <post_cond>
+        	<credits>
+        		<true>hasKnowledge,hasWebsiteLink</true>
+        		<false>hasCRT</false>
+        	</credits>
+        	<variables>+6,-2,+3</variables>
+		</post_cond>
+    </c_task>
+    <c_task id="3">
+    	<specifier> Ask a Student </specifier>
+    	<pre_cond>
+    		<location>klaus</location>
+    		<credits>hasKnowledge,hasWebsiteLink, hasCRT</credits>
+    		<variables>+0,+0,+0</variables>
+    	</pre_cond>   	
+    	<child_nodes>6,7,8,9,10</child_nodes>
+        <image_url>MetalPlates.jpg</image_url>
+        <header>Your Task: Get Metal Plates</header>
+        <message>Obtain Metal Plates</message>       
+        <post_cond>
+        	<credits>
+        		<true>hasKnowledge,hasWebsiteLink</true>
+        		<false>hasCRT</false>
+        	</credits>
+        	<variables>+6,-5,+3</variables>
+		</post_cond>
+    </c_task>
+    <c_task id="4">
+    	<specifier> Ask the Janitor </specifier>
+    	<pre_cond>
+    		<location>klaus</location>
+    		<credits>hasKnowledge,hasWebsiteLink</credits>
+    		<variables>+7,+8,+9</variables>
+    	</pre_cond>   	
+    	<child_nodes>6,7,8,9,10</child_nodes>
+        <image_url>MetalPlates.jpg</image_url>
+        <header>Your Task: Get Metal Plates</header>
+        <message>Obtain Metal Plates</message>       
+        <post_cond>
+        	<credits>
+        		<true>hasKnowledge,hasWebsiteLink</true>
+        		<false>hasCRT</false>
+        	</credits>
+        	<variables>+6,-5,+3</variables>
+		</post_cond>
+    </c_task>
+</task>
